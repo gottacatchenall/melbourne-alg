@@ -22,11 +22,8 @@ from inc import Inc
 ########################################################
 
 def main(inc, db):
-    # Get Data from Sensor
-    # Get Data from DB
-    # Change Mode if Necessary
-    # Run Mode Alg
-    # Decide if on or Off
+    res = db.get_all_inc_data()
+    print res
     print('hello')
 
 
