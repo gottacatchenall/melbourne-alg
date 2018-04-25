@@ -7,7 +7,7 @@ import json
 import os
 
 #  Definitions
-dev = (os.environ['USER'] == 'michael')
+dev = (os.environ['USER'] == 'tribolium')
 
 base_url_prod = 'http://to_be_determined'
 base_url_dev = 'http://localhost:5000/api'
